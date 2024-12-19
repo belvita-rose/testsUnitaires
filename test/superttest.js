@@ -1,5 +1,5 @@
 import request from 'supertest';  // Import de Supertest
-import { app } from '../app.js';    // Import de l'application Express
+import { app } from '../testsUnitaires/app.js';    // Import de l'application Express
 
 // Test de l'API Express avec Supertest
 request(app)
